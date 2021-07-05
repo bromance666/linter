@@ -1,0 +1,29 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bromance666/linter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bromance666/linter/issues"
+  },
+  "homepage": "https://github.com/bromance666/linter#readme",
+  "dependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-order": "^4.1.0"
+  }
+}
