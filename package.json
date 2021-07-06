@@ -1,6 +1,6 @@
 {
   "name": "@tsword/linter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": " tsc -b tsconfig.json",
-    "rebuild": "rm -rf ./dist && tsc -b tsconfig.json"
+    "build:mac": "rm -rf ./dist && tsc -b tsconfig.json",
+    "build:win": "rimraf ./dist && tsc -b tsconfig.json"
   },
   "repository": {
     "type": "git",
