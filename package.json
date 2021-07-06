@@ -1,10 +1,14 @@
 {
   "name": "@tsword/linter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": " tsc -b tsconfig.json"
+    "build": " tsc -b tsconfig.json",
+    "rebuild": "rm -rf ./dist && tsc -b tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -37,6 +41,8 @@
     "typescript": "^4.3.5",
     "vue-eslint-parser": "^7.7.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chalk": "^4.1.1"
+  },
   "description": ""
 }
