@@ -27,7 +27,7 @@ function lintFn() {
   if (!commitRE.test(msg)) {
     console.error(
       `  ${chalk.bgRed.white(' ERROR ')} ${chalk.red(
-        `invalid commit message format. - @his/lint`,
+        `invalid commit message format. - @tsword/lint`,
       )}\n\n${chalk.red(
         `  Proper commit message format is required for automated changelog generation. Examples:\n\n`,
       )}
@@ -42,7 +42,7 @@ function lintFn() {
     );
     process.exit(1);
   } else {
-    console.log(`  ${chalk.green('✅ PASS: Commit Message lint - @his/lint')}\n`);
+    console.log(`  ${chalk.green('✅ PASS: Commit Message lint - @tsword/lint')}\n`);
   }
 }
 
