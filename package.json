@@ -8,8 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": " tsc -b tsconfig.json",
-    "build:mac": "rm -rf ./dist && tsc -b tsconfig.json",
-    "build:win": "rimraf ./dist && tsc -b tsconfig.json"
+    "build:mac": "rm -rf ./dist && npm run build",
+    "build:win": "rimraf ./dist && npm run build"
   },
   "repository": {
     "type": "git",
